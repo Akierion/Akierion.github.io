@@ -4,6 +4,12 @@
   overflow: hidden;
 }
 
+/* Center each listed link into middle of nav bar */
+.topnav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
