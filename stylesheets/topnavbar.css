@@ -1,12 +1,12 @@
 /* Style the navigation menu */
-.navbar {
+.topnavbar {
   width: 100%;
   background-color: #555;
   overflow: auto;
 }
 
 /* Navigation links */
-.navbar a {
+.topnavbar a {
   float: left;
   padding: 12px;
   color: white;
@@ -17,11 +17,11 @@
 }
 
 /* Add a background color on mouse-over */
-.navbar a:hover {
+.topnavbar a:hover {
   background-color: #000;
 }
 
 /* Style the current/active link */
-.navbar a.active {
+.topnavbar a.active {
   background-color: #4CAF50;
 }
