@@ -1,27 +1,46 @@
-/* Style the navigation menu */
-.topnavbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+body {
 }
 
-/* Navigation links */
-.topnavbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 33.33%;
-  text-align: center; 
+.topnav {
+    position: relative;
+    overflow: hidden;
 }
 
-/* Add a background color on mouse-over */
-.topnavbar a:hover {
-  background-color: #000;
+.topnav a {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
-/* Style the current/active link */
-.topnavbar a.active {
-  background-color: #4CAF50;
+.topnav li {
+    padding: 4px 8px;
+    display: inline-block;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
+}
+
+.current {
+    padding: 4px 8px;
+    display: inline-block;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
+}
+
+a:hover {
+    background: gainsboro;
+}
+
+.topnav-right {
+    float: right;
 }
