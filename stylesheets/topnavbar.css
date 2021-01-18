@@ -1,4 +1,5 @@
-body {
+html {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .topnav {
@@ -18,29 +19,31 @@ body {
 .topnav li {
     padding: 4px 8px;
     display: inline-block;
-    border: 3px solid #333333;
+    border: 3px solid black;
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
     text-transform: uppercase;
     letter-spacing: 0.3ch;
-    background: #ffffff;
+    background: white;
     position: relative;
 }
 
 .current {
     padding: 4px 8px;
     display: inline-block;
-    border: 3px solid #333333;
+    border: 3px solid black;
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
     text-transform: uppercase;
     letter-spacing: 0.3ch;
-    background: #ffffff;
     position: relative;
+    background: lightpink;
 }
 
-a:hover {
-    background: gainsboro;
+li:hover {
+    background: lightpink;
 }
 
 .topnav-right {
+    padding-bottom: 20px;
+    padding-right: 35px;
     float: right;
 }
