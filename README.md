@@ -1,3 +1,3 @@
 # Akierion.github.io
   ^                ^
-Please use this link to visit my website (it is currently under-development).
+Please use this url to visit my website (it is currently under-development).
