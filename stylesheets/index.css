@@ -1,16 +1,1 @@
-.myimage {
-    width: 50%;
-    text-align: center;
-    margin: 0 auto;
-}
 
-.myimage img {
-    border-radius: 10%;
-    width: 30%;
-    height: auto;
-}
-
-.myimage p {
-    width: 100%;
-    font-size: 115%;
-}
