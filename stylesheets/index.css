@@ -1,0 +1,39 @@
+img {
+  width: 50%;
+  display: inline-block;
+}
+
+.profile {
+  display: inline-block;
+  width: 25%;
+  margin-left: 5px;
+}
+
+.container {
+  border-radius: 5%;
+}
+
+.profile .row {
+  margin-top: 5px;
+}
+
+.profile .col ul {
+  list-style-type: square;
+  width: 100%;
+}
+
+
+.profile .col img {
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile .col ul li{
+    font-size: 0.7rem;
+  }
+}
+
+.descriptor {
+  display: inline-block;
+}
