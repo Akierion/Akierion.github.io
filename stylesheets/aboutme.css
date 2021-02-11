@@ -1,0 +1,32 @@
+.spotify .container {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.spotify-playlist-1,.spotify-playlist-2,.spotify-playlist-3 {
+  width: 33%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1800px) {
+  .spotify-playlist-1,.spotify-playlist-2 {
+    display: inline;
+}
+  .spotify-playlist-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spotify-playlist-3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .spotify-playlist-3 {
+    display: none;
+  }
+  .spotify .container {
+    display: none;
+}
